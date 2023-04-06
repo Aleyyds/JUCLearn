@@ -24,3 +24,16 @@ public class TestNewFixedThreadPool {
         pool.shutdown();
     }
 }
+
+/**
+ * 带有缓冲功能的线程池
+ * newCachedThreadPool
+ * 特点：
+ *  1、核心线程数是0，全部都是救急线程，可以无线创建
+ *  2、采用synchronizeQueue，没有线程来取是不能放入数据
+ */
+
+/**
+ * 单线程线程池
+ * newSingleThreadExecutor
+ */
