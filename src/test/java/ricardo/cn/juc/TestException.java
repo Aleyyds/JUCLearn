@@ -8,7 +8,6 @@ public class TestException {
             System.out.println("A");
         }catch (RuntimeException e){
             System.out.println("B");
-            throw new Exception();
         }catch (Exception e){
             System.out.println("c");
         }finally {
